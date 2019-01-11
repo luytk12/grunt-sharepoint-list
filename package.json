@@ -1,0 +1,36 @@
+{
+  "name": "grunt-sharepoint-list",
+  "description": "add item to sharepoint list",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bekoelu/grunt-sharepoint-list",
+  "author": {
+    "name": "Koen Luyten",
+    "email": "koen.luyten@reynaers.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bekoelu/grunt-sharepoint-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bekoelu/grunt-sharepoint-list/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bekoelu/grunt-sharepoint-list/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "request-ntlm-lite": "^0.2.4"
+  },
+  "keywords": [
+    "sharepoint","rest"
+  ]
+}
